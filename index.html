@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+
+    <div class="label">
+        <label for="email">Email</label>
+      </div>
+      <div>
+        <input type="email" id="email" class="form-input" name="Email" maxlength="30"
+          required
+          
+        />
+      </div>
+
+      <div class="label">
+        <label for="phone"
+          >Phone<span class="recommended">(recommended)</span></label
+        >
+      </div>
+      <div>
+        <input type="tel" id="phone" class="form-input" name="Phone" required/>
+        <label for="phone"
+          ><small class="rates"
+            >Standard call, message, or data rates may apply.</small
+          ></label
+        >
+      </div>
+
+      <div id="verify-message">
+        <label><input type="checkbox" checked>Verify with text message<small>(most secure)</small></label>
+      </div>
+
+      <div class="label">
+        <label for="password">Password</label>
+      </div>
+
+      <div>
+        <input type="password" id="password" class="form-input" name="Password" maxlength="20" required />
+      </div>
+
+    <div id="hide_password">
+      <div class="label">
+        <label for="confirm_password">Confirm password</label>
+      </div>
+      <div>
+        <input type="password" id="confirm_password" class="form-input" name="Confirm password" maxlength="20" required/>
+      </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
